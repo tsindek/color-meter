@@ -12,18 +12,22 @@
 <body>
     <div class="header__wrapper">
         <header class="header">
-            <label for="redSlider">r</label>
-            <input type="range" step="1" min="0" max="255" value="50" id="redSlider">
-            <label for="greenSlider">g</label>
-            <input type="range" step="1" min="0" max="255" value="50" id="greenSlider">
-            <label for="blueSlider">b</label>
-            <input type="range" step="1" min="0" max="255" value="50" id="blueSlider">
+            <div class="slider-wrapper">
+                <label for="red-slider">r</label>
+                <input type="range" step="1" min="0" max="255" value="50" id="red-slider">
+            </div>
+            <div class="slider-wrapper">
+                <label for="green-slider">g</label>
+                <input type="range" step="1" min="0" max="255" value="50" id="green-slider">
+            </div>
+            <div class="slider-wrapper">
+                <label for="blue-slider">b</label>
+                <input type="range" step="1" min="0" max="255" value="50" id="blue-slider">
+            </div>
         </header>
         <p class="colorValue">#asd</p>
+        <button class="random-button">Random Color</button>
     </div>
-    <main class="main">
-
-    </main>
     <script src="script.js"></script>
 </body>
 
